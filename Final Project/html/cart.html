@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="firstHeader">
+                <div class="title">
+                    <h2><a href="../index.html">OneTech</a></h2>
+                </div>
+                <div class="search">
+                    <form action="">
+                        <input type="search" name="" id="" placeholder="Search For Products...">
+                        <select name="" id="">
+                            <option value="All Categories">All Categories</option>
+                            <option value="Computers">Computers</option>
+                            <option value="Laptops">Laptops</option>
+                            <option value="Camerars">Camerars</option>
+                            <option value="Hardware">Hardware</option>
+                            <option value="Smartphones">Smartphones</option>
+                        </select>
+                        <button></button>
+                    </form>
+                </div>
+                <div class="wish-cart">
+                    <div class="wishList">
+                        <a href="../html/wish.html">
+                            <div class="wishIcon">
+                                <img src="../imgs/wishlist_cart/download.webp" alt="wishlist">
+                                <div class="wishCounter">0</div>
+                            </div>
+                        </a>
+                        <div class="wish">
+                            <h6>wishList</h6>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cartIcon">
+                            <a href="../html/cart.html">
+                                <img src="../imgs/wishlist_cart/download (4).webp" alt="">
+                                <div class="cartCounter">0</div>
+                            </a>
+                        </div>
+                        <div class="cartInfo">
+                            <h6>Cart</h6>
+                            <small>&#36;<span class="totalPrice">0</span></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondHeader">
+                <div class="container">
+                    <div class="cotegories">
+                        <div class="innerCotegories">
+                            <i class="fa fa-bars"></i>
+                            <div>
+                                <span>categories</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>Computer& Labtops</li>
+                                <li>Hardware</li>
+                                <li>Gadgets</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <div class="toggel">
+                            <span>MENU</span>
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Super Deals</a></li>
+                            <li><a href="#">New Arrival</a></li>
+                            <li class="pages"><a href="#">Page <i class="fas fa-chevron-down"></i>
+                                    <div class="content">
+                                        <ul class="innerPages">
+                                            <li><a href="html/cart.html">Cart</a></li>
+                                            <li><a href="html/wish.html">Wish</a></li>
+                                        </ul>
+                                    </div>
+
+                                </a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>Cart List</h2>
+        </div>
+        <div  class="tableContainer">
+            <table  width="70%">
+                <thead>
+                    <tr>
+                        <th colspan="2">Item details</th>
+                        <th>Qantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="../js/products.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

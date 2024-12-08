@@ -1,0 +1,69 @@
+:root{
+    --mainColor:#554edd ;
+    --btnColor: #e37373;
+    --btnColor2: #e3c373;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive; 
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dae3ee, #729ceb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.container  {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.items{
+    display: flex;
+}
+.items .item{
+    padding: 10px;
+    text-align: center;
+}
+.items .item img{width: 100%;}
+
+.layer{
+    position: fixed;
+    inset:0;
+    background-color: #e373738f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+.img-box{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+i.fa-times-circle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

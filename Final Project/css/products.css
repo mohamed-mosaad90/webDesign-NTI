@@ -1,0 +1,419 @@
+.MainProducts {}
+
+.MainProducts .container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.MainProducts .container .characteristics {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.container .characteristics .advantage {
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+    box-shadow: 0 0 8px 1px #0000001b;
+}
+
+.characteristics .advantage .logo img {
+    width: 30px;
+}
+
+.characteristics .advantage .content {
+    margin-left: 10px;
+}
+
+.characteristics .advantage .content span {
+    display: block;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212529;
+}
+
+.characteristics .advantage .content small {
+    font-weight: 400;
+    line-height: 21px;
+    color: #6c757d;
+}
+
+/* ///////end characteristics /////////////////*/
+/* ///////start displayProducts /////////////// */
+.container .displayProducts {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .displayProducts .headPhone {
+    width: 30%;
+    padding: 24px 24px;
+    background-color: white;
+    box-shadow: 0 0 12px 1px #0000001b;
+
+}
+
+.container .displayProducts .headPhone .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.displayProducts .headPhone .title h3 {
+    color: #212529;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.displayProducts .headPhone .title .arrows .fa-angle-left {
+    margin-right: 15px;
+}
+
+.displayProducts .headPhone .title .arrows .fa-angle-left,
+.fa-angle-right {
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.container .displayProducts .headPhone .photo {
+    overflow: hidden;
+
+}
+
+.container .displayProducts .headPhone img {
+
+    width: 100%;
+
+    margin: 10px 0;
+    /* background-color: rgb(95, 99, 160); */
+
+}
+
+.displayProducts .headPhone .discription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.displayProducts .headPhone .discription .name h6 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.displayProducts .headPhone .discription .name span {
+    display: block;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212529;
+    font-weight: 600;
+}
+
+.displayProducts .headPhone .discription .price span {
+    color: #dc3545;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.displayProducts .headPhone .discription .price small {
+    display: block;
+    margin-bottom: 5px;
+    color: #6c757d;
+}
+
+.displayProducts .headPhone .avalibale {
+    margin: 20px 0;
+}
+
+.displayProducts .headPhone .avalibale .innerAvalibale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headPhone .avalibale .innerAvalibale span {
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+
+.headPhone .avalibale .innerAvalibale small {
+    color: #3d3c3c;
+    font-weight: 600;
+}
+
+.headPhone .avalibale .prograss {
+    margin-top: 5px;
+    width: 100%;
+    height: 11px;
+    border-radius: 10px;
+    background-color: #6c757d2c;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.headPhone .avalibale .prograss::after {
+    content: "";
+    position: absolute;
+    width: 9%;
+    height: 11px;
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+
+.headPhone .avalibale .innerAvalibale small {
+    color: #3d3c3c;
+    font-weight: 600;
+}
+
+.headPhone .harryUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headPhone .harryUp .innrtharryUp span {
+    color: #212529;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.headPhone .harryUp .innrtharryUp span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+
+}
+
+.headPhone .harryUp small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6c757d;
+}
+
+.container .displayProducts .products {
+    width: 70%;
+    padding: 5px 20px;
+
+}
+
+.displayProducts .products .tab {
+    /* background-color: #0d6efd; */
+    /* padding: 10px 0; */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+}
+
+.displayProducts .products .tab button {
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.displayProducts .products .tab .active {
+
+    /* position: absolute;  */
+    /* background-color: aqua;    */
+
+
+}
+
+.productContainer {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productContainer .productCard {
+    position: relative;
+    width: 25%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    border-right: 1px solid rgba(128, 128, 128, 0.459);
+}
+
+
+.productContainer .productCard::after {
+    content: "-25%";
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    top: 20px;
+    border-radius: 50%;
+    background-color: #ff3333;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.productContainer .productCard span {
+    display: block;
+    margin: 5px 0;
+}
+
+.productContainer .productCard small {
+    color: #6c757d;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.productContainer .productCard h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 5px 0;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+
+.productContainer .productCard h4:hover {
+    color: #09c;
+}
+
+.productContainer .productCard button {
+    width: 100%;
+    height: 45px;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    background-color: #09c;
+    outline: none;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s, color 0.3s;
+    -webkit-transition: opacity 0.3s, color 0.3s;
+    -moz-transition: opacity 0.3s, color 0.3s;
+    -ms-transition: opacity 0.3s, color 0.3s;
+    -o-transition: opacity 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.productContainer .productCard:hover button {
+    opacity: 1;
+}
+
+.productContainer .productCard button:hover {
+    color: #6c757d;
+}
+
+/* ///////end displayProducts /////////////////*/
+@media screen and (max-width:1250px) {
+    .MainProducts .container {
+        width: 80%;
+    }
+
+    .displayProducts .headPhone .title h3 {
+        font-size: 18px;
+    }
+
+    .container .displayProducts .headPhone {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .container .displayProducts .products {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .MainProducts .container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .MainProducts .container {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .MainProducts .container .characteristics {
+        justify-content: center;
+    }
+
+    .container .characteristics .advantage {
+        width: 70%;
+        margin-bottom: 15px;
+
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .hero .container {
+        flex-wrap: wrap;
+    }
+
+    .hero .container .content {
+        width: 100%;
+
+    }
+
+    .hero .container .photo img {
+        text-align: center;
+        width: 70%;
+    }
+
+    .hero .container .photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .hero .container {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .hero .container .content h1 {
+        font-size: 32px;
+    }
+}

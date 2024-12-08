@@ -1,0 +1,20 @@
+*{
+    font-family: "Playwrite CU", cursive;
+}
+section {
+    width: 100%;
+    background-color: aqua;
+}
+
+.child {
+    width: 20%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.clear-fix {
+    clear: both;
+}
